@@ -25,3 +25,16 @@ if __name__ == '__main__': # area.py를 직접 실행할때만 실행되도록
 
     print(square(2) == 4)
     print(square(5) == 25)
+
+###############################################
+
+# 함수들을 테스팅 하는 메인 함수
+def main():
+    print(circle(2) == 12.56)
+    print(circle(5) == 78.5)
+
+    print(square(2) == 4)
+    print(square(5) == 25)
+
+if __name__ == '__main__':
+    main()
