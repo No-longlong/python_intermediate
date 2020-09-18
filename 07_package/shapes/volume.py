@@ -1,4 +1,5 @@
-PI = 3.14
+from shapes import PI
+#PI = 3.14
 
 # 구의 부피
 def sphere(radius):
